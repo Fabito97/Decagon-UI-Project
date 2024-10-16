@@ -1,0 +1,80 @@
+.skill {
+  padding: 5rem 3rem;
+  text-align: center;
+  background: url('../assets/hero-section.png') no-repeat center center/cover;
+}
+
+.skill h1 {
+  margin: 4rem 3rem;
+  width: 50%;
+  margin: 0 auto 4rem ;
+  text-align: center;
+}
+
+.skill-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  gap: 4rem;
+}
+
+.skill-avatar img {
+  width: 30%;
+  margin: auto;
+}
+
+.skill button {
+  margin: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+    
+  .skill h1 {
+    width: 80%;
+    margin: 0 auto 4rem ;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skill-items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skill h1 {
+    margin: auto;
+    width: 100%;
+  }
+
+  .skill-avatar img {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill-items {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-avatar img {
+    width: 60%;
+    margin: auto;
+  }
+
+  
+  .skill h1 {
+    font-size: 1.7rem;
+  }
+
+  .skill button {
+    margin-top: 0rem;
+  }
+}

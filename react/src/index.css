@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  transition: all 0.25s;
+}
+a:hover {
+  color: #057521;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #1da13e;
+}
+
